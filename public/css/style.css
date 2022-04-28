@@ -1,0 +1,90 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body, html
+{
+	height: 100%;
+}
+body
+{
+	background: rgb(131,58,180);
+	background: linear-gradient(230deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.5805672610841212) 100%, rgba(252,176,69,0.5889706224286589) 100%);
+}
+.boxForm
+{
+	background: rgba(255,255,255, .28);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(91, 95, 151, .3);
+	backdrop-filter: blur(18.1px);
+	-webkit-backdrop-filter: blur(18.1px);
+	padding: 20px;
+}
+.boxForm label, .termos
+{
+	color: #fff;
+}
+form
+{
+	display: block;
+}
+.btn
+{
+	padding: 10px;
+	border-radius: 20px;
+}
+form button
+{
+	background: #5b5f97;
+	color: #fff;
+	transition: .5s;
+}
+form button:hover
+{
+	transition: .5s;
+	background: rgba(91, 95, 151, .7);
+	border: 1px solid rgba(91, 95, 151, 1);
+}
+form p
+{
+	color: #fff;
+}
+.form-control
+{
+	padding: 10px;
+	border-radius: 20px;
+	height: unset;
+}
+.iconImg
+{
+	background: url('https://picsum.photos/id/870/200/300?grayscale&blur=1');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: relative;
+	top: -55px;
+	box-shadow: 2px 2px 20px rgba(0, 0, 0, .1);
+	border: 5px solid rgba(91, 95, 151, .5);
+}
+form
+{
+	position: relative;
+	max-width: 400px;
+	margin: 0 auto;
+}
+button
+{
+	display: block;
+	width: 100%;
+}
+.termos p
+{
+	font-family: initial;
+}
